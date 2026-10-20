@@ -287,3 +287,9 @@
 .catrow button.on{background:var(--viridian);border-color:var(--viridian);color:#fff}
 @media(max-width:960px){.bloggrid,.packphotos{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.bloggrid,.packphotos{grid-template-columns:1fr}.post th,.post td{padding:8px 6px;font-size:13.5px}.post{padding:40px 0 60px}.post p,.post li{font-size:16px}}
+
+.prod .pimg,.packphotos img{height:auto}
+.tile.sm{width:44px;height:52px;padding:5px 6px}
+.tile.sm .num{font-size:10px}
+.tile.sm .sym{font-size:20px;margin:1px 0}
+.tile.sm .nm{font-size:7.5px;letter-spacing:0}
