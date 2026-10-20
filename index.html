@@ -9,6 +9,11 @@
 <meta property="og:title" content="magsulf.com — Magnesium Sulphate Manufacturer & Exporter from India" />
 <meta property="og:description" content="Bulk magnesium sulphate from Tuticorin — every grade and crystal size, shipped worldwide. Request a quote." />
 <meta property="og:type" content="website" />
+<meta property="og:image" content="https://magsulf.com/img/brand/magsulf-logo-dark-1024.png" />
+<link rel="canonical" href="https://magsulf.com/" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="img/brand/favicon-32.png">
+<link rel="apple-touch-icon" href="img/brand/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -254,6 +259,58 @@
   .coa-doc img{display:block;width:100%;height:auto}
   .coa-cap{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);padding:12px 16px;border-top:1px solid var(--line);background:var(--salt);letter-spacing:.03em}
   @media(max-width:820px){.coa-grid{grid-template-columns:1fr}}
+
+/* --- added: logo tile, product photos, packing photos, blog --- */
+.tile.sm .nm{font-size:8.5px}
+.prod .pimg{display:block;width:calc(100% + 52px);margin:-26px -26px 22px;aspect-ratio:4/3;object-fit:cover;border-radius:8px 8px 0 0;background:var(--salt)}
+.packphotos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+.packphotos figure{margin:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff}
+.packphotos img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.packphotos figcaption{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);padding:10px 14px;letter-spacing:.02em}
+.imgnote{font-size:12px;color:var(--muted);margin-top:12px}
+.blogsec{background:var(--paper)}
+.bloggrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.bcard{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:8px;background:#fff;padding:24px;transition:transform .15s,border-color .15s;color:inherit;text-decoration:none}
+.bcard:hover{transform:translateY(-3px);border-color:var(--viridian)}
+.bcard .bmeta{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--viridian)}
+.bcard h3{font-size:19px;line-height:1.3;margin:10px 0 10px}
+.bcard p{font-size:14px;color:var(--muted);margin-bottom:16px;flex:1}
+.bcard .bmore{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:14px;color:var(--viridian)}
+.secmore{margin-top:30px}
+.post{max-width:72ch;margin:0 auto;padding:64px 0 80px}
+.post .crumb{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);margin-bottom:18px}
+.post .crumb a{color:var(--viridian)}
+.post h1{font-size:clamp(28px,4vw,42px);line-height:1.15;font-weight:700;margin:12px 0 14px;letter-spacing:-.01em}
+.post .pmeta{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);padding-bottom:22px;border-bottom:1px solid var(--line);margin-bottom:30px}
+.post h2{font-size:24px;margin:36px 0 12px;font-weight:600}
+.post h3{font-size:19px;margin:26px 0 8px}
+.post p,.post li{font-size:17px;line-height:1.7;color:#22343A}
+.post p{margin-bottom:16px}
+.post ul,.post ol{margin:0 0 18px 22px}
+.post li{margin-bottom:6px}
+.post table{width:100%;border-collapse:collapse;margin:8px 0 22px;font-size:15px}
+.post th,.post td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+.post th{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.post .cta{margin-top:40px;padding:26px;border-radius:8px;background:var(--ink);color:var(--salt)}
+.post .cta h3{color:#fff;margin-top:0}
+.post .cta p{color:#A9BBB5}
+.post .related{margin-top:44px}
+.post .related a{display:block;padding:12px 0;border-top:1px solid var(--line);color:var(--viridian);font-weight:500}
+.bloghero{padding:64px 0 10px}
+.bloghero h1{font-size:clamp(30px,4vw,46px);font-weight:700;margin:14px 0 12px}
+.bloghero p{color:var(--muted);font-size:17px;max-width:62ch}
+.catrow{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 34px}
+.catrow button{font-family:"IBM Plex Mono",monospace;font-size:12px;border:1px solid var(--line);background:#fff;border-radius:40px;padding:7px 14px;cursor:pointer;color:var(--ink)}
+.catrow button.on{background:var(--viridian);border-color:var(--viridian);color:#fff}
+@media(max-width:960px){.bloggrid,.packphotos{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.bloggrid,.packphotos{grid-template-columns:1fr}.post{padding:40px 0 60px}.post p,.post li{font-size:16px}}
+.dstabs{display:flex;flex-wrap:wrap;gap:8px;margin:-10px 0 18px}
+.dstab{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:15px;border:1.5px solid var(--line);background:#fff;color:var(--ink);border-radius:var(--r);padding:10px 16px;cursor:pointer}
+.dstab span{font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:12px;color:var(--muted);margin-left:6px}
+.dstab.on{background:var(--viridian);border-color:var(--viridian);color:#fff}
+.dstab.on span{color:#cfeee3}
+.dspanel[hidden]{display:none}
+.prod .dslink{margin-top:14px;font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:14px;color:var(--viridian)}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"MAGSULF.COM","url":"https://www.magsulf.com","email":"sales@magsulf.com","telephone":"+918700920040","description":"Bulk magnesium sulphate (Epsom salt) manufacturer and exporter from Tuticorin, India.","address":{"@type":"PostalAddress","streetAddress":"Vill Chapparauli Bangar, Sector 168","addressLocality":"Noida","addressRegion":"Uttar Pradesh","postalCode":"201304","addressCountry":"IN"}}
@@ -265,7 +322,7 @@
 <header class="nav">
   <div class="wrap nav-inner">
     <a class="brand" href="#top" aria-label="magsulf.com home">
-      <span class="tile sm"><span class="num">12</span><span class="sym">Mg</span><span class="nm">·7H₂O</span></span>
+      <span class="tile sm"><span class="num">12</span><span class="sym">Mg</span><span class="nm">24.305</span></span>
       <span>
         <span class="wordmark">magsulf<span>.com</span></span>
         <span class="tag">Magnesium Sulphate · Ex-India</span>
@@ -278,6 +335,7 @@
       <a class="lk" href="#quality">Quality</a>
       <a class="lk" href="#about">About</a>
       <a class="lk" href="#faq">FAQ</a>
+      <a class="lk" href="blog.html">Blog</a>
       <a class="btn btn-dark" href="#rfq">Request a quote</a>
     </nav>
     <button class="nav-toggle" id="navtoggle" aria-label="Menu">☰</button>
@@ -341,6 +399,7 @@
     </div>
     <div class="prodgrid">
       <div class="prod reveal">
+        <img class="pimg" src="img/heptahydrate.jpg" onerror="this.style.display='none'" alt="Magnesium sulphate heptahydrate (Epsom salt) crystals" width="800" height="600" loading="lazy">
         <span class="pf">Most popular</span>
         <h3>Heptahydrate</h3>
         <div class="sub">MgSO₄·7H₂O · Epsom salt</div>
@@ -351,8 +410,10 @@
         <div class="sizes">
           <span class="size">0.1–1 mm powder</span><span class="size">1–3 mm</span><span class="size">2–4 mm</span><span class="size">4–7 mm</span>
         </div>
+        <a class="dslink" href="#specs" data-ds="ds-hepta">View data sheet →</a>
       </div>
       <div class="prod reveal">
+        <img class="pimg" src="img/monohydrate.jpg" onerror="this.style.display='none'" alt="Magnesium sulphate monohydrate granules" width="800" height="600" loading="lazy">
         <span class="pf">High magnesium</span>
         <h3>Monohydrate</h3>
         <div class="sub">MgSO₄·H₂O · kieserite-type</div>
@@ -361,8 +422,10 @@
         <div class="kv"><span class="kk">MgO</span><span class="vv">26 – 28%</span></div>
         <div class="kv"><span class="kk">Form</span><span class="vv">Granular / powder</span></div>
         <div class="sizes"><span class="size">Powder</span><span class="size">Granular</span></div>
+        <a class="dslink" href="#specs" data-ds="ds-mono">View data sheet →</a>
       </div>
       <div class="prod reveal">
+        <img class="pimg" src="img/anhydrous.jpg" onerror="this.style.display='none'" alt="Anhydrous magnesium sulphate fine powder" width="800" height="600" loading="lazy">
         <span class="pf">Highest concentration</span>
         <h3>Anhydrous</h3>
         <div class="sub">MgSO₄ · dried</div>
@@ -371,6 +434,7 @@
         <div class="kv"><span class="kk">MgO</span><span class="vv">33% min</span></div>
         <div class="kv"><span class="kk">Form</span><span class="vv">Powder</span></div>
         <div class="sizes"><span class="size">Industrial</span><span class="size">Technical</span></div>
+        <a class="dslink" href="#specs" data-ds="ds-anhy">View data sheet →</a>
       </div>
     </div>
   </div>
@@ -423,11 +487,16 @@
 <section class="section tight" id="specs" style="background:var(--salt)">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow">Typical data sheet · heptahydrate</span>
+      <span class="eyebrow">Typical data sheets</span>
       <h2>The numbers your QA team will ask for.</h2>
-      <p>Representative specification for bath / food grade heptahydrate. Agro and feed grades differ on assay and heavy-metal tolerance — full TDS and SDS sent with every quote.</p>
+      <p>Representative specifications for each form. Grades differ on assay and heavy-metal tolerance; a full TDS, SDS and batch COA are sent with every quote.</p>
     </div>
-    <div class="specgrid reveal">
+    <div class="dstabs reveal" role="tablist" aria-label="Data sheet by form">
+      <button class="dstab on" role="tab" aria-selected="true" aria-controls="ds-hepta" id="t-hepta">Heptahydrate <span>MgSO₄·7H₂O</span></button>
+      <button class="dstab" role="tab" aria-selected="false" aria-controls="ds-mono" id="t-mono">Monohydrate <span>MgSO₄·H₂O</span></button>
+      <button class="dstab" role="tab" aria-selected="false" aria-controls="ds-anhy" id="t-anhy">Anhydrous <span>MgSO₄</span></button>
+    </div>
+    <div class="specgrid dspanel reveal" id="ds-hepta" role="tabpanel" aria-labelledby="t-hepta">
       <div class="row"><span class="k">Appearance</span><span class="v">White crystalline</span></div>
       <div class="row"><span class="k">Molecular formula</span><span class="v">MgSO₄·7H₂O</span></div>
       <div class="row"><span class="k">CAS number</span><span class="v">10034-99-8</span></div>
@@ -441,6 +510,35 @@
       <div class="row"><span class="k">Molecular weight</span><span class="v">246.47 g/mol</span></div>
       <div class="row"><span class="k">Origin</span><span class="v">India (Tuticorin)</span></div>
     </div>
+    <div class="specgrid dspanel" id="ds-mono" role="tabpanel" aria-labelledby="t-mono" hidden>
+      <div class="row"><span class="k">Appearance</span><span class="v">White / off-white powder or granules</span></div>
+      <div class="row"><span class="k">Molecular formula</span><span class="v">MgSO₄·H₂O</span></div>
+      <div class="row"><span class="k">CAS number</span><span class="v">14168-73-1</span></div>
+      <div class="row"><span class="k">HS / HSN code</span><span class="v">2833.21.00</span></div>
+      <div class="row"><span class="k">Magnesium (as MgO)</span><span class="v">26% min</span></div>
+      <div class="row"><span class="k">Sulphur (as S)</span><span class="v">20% min</span></div>
+      <div class="row"><span class="k">Assay (MgSO₄·H₂O)</span><span class="v">98% min</span></div>
+      <div class="row"><span class="k">pH (5% solution)</span><span class="v">5.0 – 8.0</span></div>
+      <div class="row"><span class="k">Heavy metals</span><span class="v">&lt; 10 ppm</span></div>
+      <div class="row"><span class="k">Solubility</span><span class="v">Water-soluble · slower than heptahydrate</span></div>
+      <div class="row"><span class="k">Molecular weight</span><span class="v">138.38 g/mol</span></div>
+      <div class="row"><span class="k">Origin</span><span class="v">India (Tuticorin)</span></div>
+    </div>
+    <div class="specgrid dspanel" id="ds-anhy" role="tabpanel" aria-labelledby="t-anhy" hidden>
+      <div class="row"><span class="k">Appearance</span><span class="v">White fine powder</span></div>
+      <div class="row"><span class="k">Molecular formula</span><span class="v">MgSO₄</span></div>
+      <div class="row"><span class="k">CAS number</span><span class="v">7487-88-9</span></div>
+      <div class="row"><span class="k">HS / HSN code</span><span class="v">2833.21.00</span></div>
+      <div class="row"><span class="k">Magnesium (as MgO)</span><span class="v">33% min</span></div>
+      <div class="row"><span class="k">Sulphur (as S)</span><span class="v">26% min</span></div>
+      <div class="row"><span class="k">Assay (MgSO₄)</span><span class="v">98% min</span></div>
+      <div class="row"><span class="k">Loss on ignition</span><span class="v">2% max</span></div>
+      <div class="row"><span class="k">Heavy metals</span><span class="v">&lt; 10 ppm</span></div>
+      <div class="row"><span class="k">Solubility</span><span class="v">Water-soluble · hygroscopic</span></div>
+      <div class="row"><span class="k">Molecular weight</span><span class="v">120.37 g/mol</span></div>
+      <div class="row"><span class="k">Origin</span><span class="v">India (Tuticorin)</span></div>
+    </div>
+    <p class="imgnote">Typical values, non-binding. Exact parameters confirmed per batch COA before dispatch.</p>
   </div>
 </section>
 
@@ -490,6 +588,13 @@
         <div class="li"><div class="lt">Documentation</div><div class="ld">COA · SDS/MSDS · packing list · BL · Certificate of Origin</div></div>
       </div>
     </div>
+
+    <div class="packphotos reveal">
+      <figure><img src="img/bags-25kg.jpg" onerror="this.style.display='none'" alt="25 kg woven PP bags of magnesium sulphate on a pallet" width="800" height="600" loading="lazy"><figcaption>25 kg PP woven bags · palletised</figcaption></figure>
+      <figure><img src="img/jumbo-bags.jpg" onerror="this.style.display='none'" alt="1 MT FIBC jumbo bags of magnesium sulphate" width="800" height="600" loading="lazy"><figcaption>1 MT FIBC jumbo bags</figcaption></figure>
+      <figure><img src="img/container-loading.jpg" onerror="this.style.display='none'" alt="Loading a 20 ft container with bagged magnesium sulphate" width="800" height="600" loading="lazy"><figcaption>20' FCL loading · 25–27 MT</figcaption></figure>
+    </div>
+    <p class="imgnote">Representative images. Actual packing photographs available per order.</p>
   </div>
 </section>
 
@@ -521,6 +626,38 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="section blogsec" id="blog">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Knowledge hub</span>
+      <h2>Guides for magnesium sulphate buyers.</h2>
+      <p>Forms and grades, quality testing, export documents and sourcing — written for importers and distributors.</p>
+    </div>
+    <div class="bloggrid reveal">
+      <a class="bcard" href="blog/choosing-a-magnesium-sulphate-supplier-checklist.html" data-cat="Sourcing">
+        <span class="bmeta">Sourcing · 2 Mar 2026</span>
+        <h3>Choosing a Magnesium Sulphate Supplier: A 10-Point Checklist</h3>
+        <p>Ten questions importers should ask before placing a first order with a magnesium sulphate supplier.</p>
+        <span class="bmore">Read article →</span>
+      </a>
+      <a class="bcard" href="blog/sourcing-magnesium-sulphate-from-india.html" data-cat="Sourcing">
+        <span class="bmeta">Sourcing · 10 Nov 2025</span>
+        <h3>Why Source Magnesium Sulphate from India</h3>
+        <p>India as a magnesium sulphate origin: production base, port access, grade range and what importers gain by buying direct.</p>
+        <span class="bmore">Read article →</span>
+      </a>
+      <a class="bcard" href="blog/packing-options-25kg-bags-jumbo-bags-containers.html" data-cat="Logistics">
+        <span class="bmeta">Logistics · 11 Aug 2025</span>
+        <h3>Packing Magnesium Sulphate: 25 kg Bags, Jumbo Bags and Container Loads</h3>
+        <p>How magnesium sulphate is packed for export, how much fits in a 20 ft container, and how to choose the right pack for your warehouse.</p>
+        <span class="bmore">Read article →</span>
+      </a>
+    </div>
+    <div class="secmore"><a class="btn btn-dark" href="blog.html">All articles →</a></div>
   </div>
 </section>
 
@@ -587,13 +724,13 @@
     <div class="ft-top">
       <div>
         <a class="brand" href="#top">
-          <span class="tile sm"><span class="num">12</span><span class="sym">Mg</span><span class="nm">·7H₂O</span></span>
+          <span class="tile sm"><span class="num">12</span><span class="sym">Mg</span><span class="nm">24.305</span></span>
           <span><span class="wordmark">magsulf.com</span><span class="tag">Magnesium Sulphate · Ex-India</span></span>
         </a>
         <p class="fabout">Specialist magnesium sulphate exporter — heptahydrate, monohydrate &amp; anhydrous, shipped worldwide from Tuticorin, India.</p>
       </div>
       <div class="ft-col"><h5>Products</h5><a href="#products">Heptahydrate</a><a href="#products">Monohydrate</a><a href="#products">Anhydrous</a><a href="#grades">Grades</a></div>
-      <div class="ft-col"><h5>Company</h5><a href="#applications">Applications</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#specs">Specifications</a></div>
+      <div class="ft-col"><h5>Company</h5><a href="#applications">Applications</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#specs">Specifications</a><a href="blog.html">Blog</a></div>
       <div class="ft-col"><h5>Contact</h5><a href="mailto:sales@magsulf.com">sales@magsulf.com</a><a href="#" id="waLink2">WhatsApp +91 87009 20040</a><div class="cline">Reg. office: Vill Chapparauli Bangar, Sector 168, Noida, UP 201304</div><div class="cline">Factory: Tuticorin, Tamil Nadu</div><div class="cline">DGFT Importer-Exporter Code: ANMPM2144G</div></div>
     </div>
     <div class="ft-bottom">
@@ -627,6 +764,12 @@
   var b=document.getElementById('sendBtn');
   b&&b.addEventListener('click',function(){window.open('https://wa.me/'+WA_NUMBER+'?text='+buildMsg(),'_blank')});
   ['waLink','waLink2'].forEach(function(id){var wl=document.getElementById(id);wl&&wl.setAttribute('href','https://wa.me/'+WA_NUMBER)});
+
+  // data sheet tabs
+  function dsShow(id){document.querySelectorAll('.dstab').forEach(function(b){var on=b.getAttribute('aria-controls')===id;b.classList.toggle('on',on);b.setAttribute('aria-selected',on)});
+    document.querySelectorAll('.dspanel').forEach(function(p){p.hidden=p.id!==id;if(p.id===id)p.classList.add('in')})}
+  document.querySelectorAll('.dstab').forEach(function(b){b.addEventListener('click',function(){dsShow(b.getAttribute('aria-controls'))})});
+  document.querySelectorAll('[data-ds]').forEach(function(a){a.addEventListener('click',function(){dsShow(a.getAttribute('data-ds'))})});
 </script>
 </body>
 </html>

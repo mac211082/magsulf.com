@@ -1,23 +1,28 @@
-# magsulf.com — Magnesium Sulphate (Epsom Salt) Exporter
+# magsulf.com — website files
 
-Static, self-contained website. No build step.
+Static site. No build step. Upload everything in this folder to the ROOT of the GitHub repo
+(keep the folder structure). Netlify redeploys automatically in about 30 seconds.
 
-## Files
-- index.html — the entire site (certificate image embedded; nothing else required)
-- README.md — this file
+## What's here
+- `index.html` — homepage (certificate image embedded)
+- `blog.html` — blog index with category filter
+- `blog/` — 15 articles
+- `css/site.css` — shared styles for the blog pages
+- `img/` — product and packing photos
+- `img/brand/` — logo (SVG masters + PNG), favicon PNG, touch icon
+- `favicon.svg` — browser tab icon
+- `sitemap.xml`, `robots.txt` — for Google
 
-## Deploy (Netlify via GitHub)
-1. Push these files to a GitHub repo (e.g. mac211082/magsulf.com) — index.html must sit at the repo ROOT.
-2. Netlify -> Add new site -> Import an existing project -> GitHub -> pick the repo.
-3. Build command: (leave blank). Publish directory: .
-4. Deploy, then add the custom domain magsulf.com under Domain settings and point DNS.
+## Upload to GitHub
+1. Open the repo on github.com → Add file → Upload files.
+2. Drag in everything from this folder, including the `blog`, `css` and `img` folders.
+3. Commit. Netlify publishes the new version.
 
-## Editing
-Send changes to Claude -> replace index.html in the repo (Add file -> Upload files -> drag to overwrite -> Commit) -> Netlify auto-redeploys in ~30s.
+## After it's live
+- Submit `https://magsulf.com/sitemap.xml` in Google Search Console.
+- Swap the product photos in `img/` for real factory photos when you have them (same file names, 800×600).
 
-## Contact / business details on the site
-- Email: sales@magsulf.com
-- WhatsApp: +91 87009 20040
+## Contact details on the site
+- Email: sales@magsulf.com · WhatsApp: +91 87009 20040
 - Reg. office: Vill Chapparauli Bangar, Sector 168, Noida, UP 201304
-- Factory: Tuticorin, Tamil Nadu
-- DGFT IEC: ANMPM2144G
+- Factory: Tuticorin, Tamil Nadu · DGFT IEC: ANMPM2144G
